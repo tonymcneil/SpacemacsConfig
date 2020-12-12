@@ -118,7 +118,8 @@ Note that my first change is to switch to a light theme which suits how I roll w
   - First issues out of the blocks was the emacs 25/26 + Spacemacs master/develop decision, which the above instructions solve.
   - Next was a missing gpg key, I think the ppa:kelleyk/emacs ppa step above solves this, but see this issue if it didn't for you: https://github.com/syl20bnr/spacemacs/issues/13054
   - Missing Source Code Pro font issue, see [Install missing font](#install-missing-font) below (peiced together from a few blog posts) 
-  - The bottom status bar (powerline) is displaying a little box with numbers in it. This indicates the fonts on the operating system are missing a unicode char, see [Install powerline fonts](#install-powerline-fonts)
+  - The bottom status bar (powerline) is displaying a little square box with numbers in it. This indicates the fonts on the operating system are missing a unicode char, see [Install powerline fonts](#install-powerline-fonts)
+  - The text editor buffer is displaying a little square box with numbers in it where an emoji icon should be. This indicates the fonts on the operating system with the ability to display emojis are missing or not configured in emacs, see [Install fonts for emojis](#install-fonts-for-emojis)
 
 
 ### Install missing font
@@ -168,4 +169,12 @@ The fix to get the fonts installed that should have the unicode icon that's miss
 If the boxes still show then installing this fallback font should also help:
 
     bash> sudo apt install fonts-nanum
+
+### Install fonts for emojis
+
+The following should allow the buffer to display a basic emoji wireframe icon instead of the square box with number representing unicode:
+
+    bash> sudo apt install fonts-symbola
+
+This worked for me after tinkering with some other settings. Search forums again if it doesn't work on fresh install.
 
