@@ -83,6 +83,8 @@ Current clj-kondo install:
 Manually install the joker linter for use with the clojure layer, see: https://github.com/candid82/joker#installation
 
     bash> echo "******* INSTALL JOKER MANUALLY: https://github.com/candid82/joker#installation *******"
+    bash> echo "******* OR using brew... *******"
+    bash> brew install candid82/brew/joker
 
 ## Install Spacemacs into Emacs
 
