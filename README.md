@@ -102,9 +102,9 @@ After spacemacs has finished note any errors and warnings then refer to the [Iss
 For tracking configuration tweaks link ~/.spacemacs config to the one tracked in this repo as follows:
 
     # checkout this project
-    bash> export SPACE_CONF_PROJECT=~/Projects/SpacemacsConfig/MySpacemacsConfig
+    bash> export SPACE_CONF_PROJECT=~/Projects/Emacs/SpacemacsConfig
     bash> mkdir -p $SPACE_CONF_PROJECT; pushd $SPACE_CONF_PROJECT
-    bash> git clone git@github.com:tony-john-mcneil/SpacemacsConfig.git ./
+    bash> git clone git@github.com:tonymcneil/SpacemacsConfig.git ./
 
     # backup original from install
     bash> mv ~/.spacemacs ~/.spacemacs_orig
