@@ -81,6 +81,7 @@ This function should only modify configuration layer settings."
      syntax-checking
      (treemacs :variables
                treemacs-indentation 1)
+     typescript
      (version-control :variables
                       version-control-diff-tool 'diff-hl
                       version-control-global-margin t)
