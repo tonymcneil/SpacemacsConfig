@@ -71,7 +71,9 @@ This function should only modify configuration layer settings."
      multiple-cursors
      nginx
      ;; org
-     python
+     (python :variables
+             python-backend 'lsp
+             python-test-runner 'pytest)
      rust
      (shell :variables
             shell-default-height 30
@@ -81,10 +83,14 @@ This function should only modify configuration layer settings."
      syntax-checking
      (treemacs :variables
                treemacs-indentation 1)
+     typescript
      (version-control :variables
                       version-control-diff-tool 'diff-hl
                       version-control-global-margin t)
      yaml
+     ;; SPC i s inserts a snippet
+     ;; ref: http://andreacrotti.github.io/yasnippet-snippets/snippets.html
+     yasnippet-snippets
      )
 
    ;; List of additional packages that will be installed without being
