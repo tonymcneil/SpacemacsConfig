@@ -56,6 +56,7 @@ This function should only modify configuration layer settings."
      (clojure :variables
               clojure-enable-linters '(clj-kondo joker)
               clojure-enable-clj-refactor t)
+     docker
      emacs-lisp
      ;; SPC g s opens Magit git client full screen (q restores previous layout)
      ;; refine hunk 'all highlights characters changed on each line
