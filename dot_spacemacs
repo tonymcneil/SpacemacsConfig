@@ -71,7 +71,7 @@ This function should only modify configuration layer settings."
      markdown
      multiple-cursors
      nginx
-     ;; org
+     org
      (python :variables
              python-backend 'lsp
              python-test-runner 'pytest)
