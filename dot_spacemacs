@@ -54,7 +54,7 @@ This function should only modify configuration layer settings."
      csv
      ;; better-defaults
      (clojure :variables
-              clojure-enable-linters '(clj-kondo joker)
+              clojure-enable-linters '(clj-kondo)
               clojure-enable-clj-refactor t)
      dap
      docker
